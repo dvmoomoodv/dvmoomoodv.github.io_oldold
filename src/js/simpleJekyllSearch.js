@@ -3,7 +3,7 @@
         var settings = $.extend({
             jsonFile        : '/search.json',
             jsonFormat      : 'title,category,desc,url,date,shortdate',
-            template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
+            template : '<li><article><a href="https://dvmoomoodv.github.io/{url}">{title} <span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
             searchResults   : '.search-results',
             searchResultsTitle   : '<h4>Search Results:</h4>',
             limit           : '5',
