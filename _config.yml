@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -30,3 +31,47 @@ github_username:  dvmoomoodv
 # Build settings
 markdown: kramdown
 theme: minima
+=======
+# Site settings
+title: Moomoo Studio Blog
+description: A blog about moomoo
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://dvmoomoodv.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: dvmoomoodv
+user_description: Creater(Moomoo Studio)
+user_title: dvmoomoodv
+email: dvmoomoodv@gmail.com
+twitter_username: dvmoomoodv
+github_username:  dvmoomoodv
+disqus_username: dvmoomoodv
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+>>>>>>> branch 'master' of https://github.com/dvmoomoodv/dvmoomoodv.github.io.git
