@@ -1,10 +1,5 @@
 ---
 layout: post
-<<<<<<< HEAD
-title: mrhyde test
----
-mrhyde  test
-=======
 title: "Welcome to Jekyll! Test 123"
 date: 2016-10-06 11:19:02 +0900
 description: "Detalhes fazem a diferença, vamos falar sobre Favicons, Touch Icons e Tile Icons e como eles fazem a diferença."
@@ -16,4 +11,3 @@ twitter_text: "Favicons, touch icons e tile icons..."
 introduction: "Qual a importância dos favicons, touch icons e tile icons. Como criá-los automáticamente e como usá-los em seu site."
 ---
 mrhyde  test
->>>>>>> branch 'master' of https://github.com/dvmoomoodv/dvmoomoodv.github.io.git

@@ -1,12 +1,5 @@
 ---
 layout: post
-<<<<<<< HEAD
-title: my blog plan
----
-관심있는기술 카테고리   생각날때마다 올리기
-
-깃북내용 정리 올리기
-=======
 title: "my blog plan"
 date: 2016-10-06 11:19:02 +0900
 description: "Detalhes fazem a diferença, vamos falar sobre Favicons, Touch Icons e Tile Icons e como eles fazem a diferença."
@@ -20,4 +13,3 @@ introduction: "Qual a importância dos favicons, touch icons e tile icons. Como 
 관심있는기술 카테고리   생각날때마다 올리기
 
 깃북내용 정리 올리기
->>>>>>> branch 'master' of https://github.com/dvmoomoodv/dvmoomoodv.github.io.git
