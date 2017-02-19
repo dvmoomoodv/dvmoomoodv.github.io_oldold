@@ -6,21 +6,35 @@ size(width = 30, height = 30)
     text-align center
     a
         display inline-block
-        padding rem(15px)
+        /*padding rem(15px)*/
+        padding rem(10px)
         margin rem(2px)
         border-radius 50%
         border rem(2px) solid sec
         line-height 0
         transition all .7s
+        width 58px
+        height 58px
+        font-size 2rem
+        color sec
+        &:hover
+            background sec
+            color main
+
+
+
+/*
+  svg css
+            .icon
+                fill main
+
         .icon
             fill sec
             size(18,18)
             +above(cut)
                 size()
-        &:hover
-            background sec
-            .icon
-                fill main
+
+*/
 
 .down
     position absolute
