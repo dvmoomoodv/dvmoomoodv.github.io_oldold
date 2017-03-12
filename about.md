@@ -5,6 +5,50 @@ permalink: /about/index.html
 description: "Some description about Lorem Ipsum..."
 ---
 
+<script src="https://apis.google.com/js/api.js"></script>
+<script>
+<!-- Spreadsheet: http://spreadsheets.google.com/feeds/ /
+o13394135408524254648.240766968415752635
+/
+od6
+/public/values -->
+
+function start() {
+ gapi.client.init({
+	 'apiKey': 'AIzaSyCOOLdapQgwJ-zjD-j6jlZfuRgDrTjZslI',
+	 'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/translate/v2/rest'],
+ }).then(function() {
+	 return gapi.client.language.translations.list({
+		 q: 'hello world',
+		 source: 'en',
+		 target: 'de',
+	 });
+ }).then(function(response) {
+	 console.log(response.result.data.translations[0].translatedText);
+ }, function(reason) {
+	 console.log('Error: ' + reason.result.error.message);
+ });
+};
+gapi.load('client', start);
+
+
+$(function(){
+
+	<!-- $.ajax({url: "https://spreadsheets.google.com/feeds/list/key/1IzUNOwFAh6dyNvzMHkLUYtDTU-Rs6ufwwyjDQ2EDcD8/private/basic", success: function(result){ -->
+	$.ajax({url: "https://sheets.googleapis.com/v4/spreadsheets/1IzUNOwFAh6dyNvzMHkLUYtDTU-Rs6ufwwyjDQ2EDcD8", success: function(result){
+	        $("#div1").html(result);
+  }});
+
+
+});
+
+
+
+</script>
+
+<iframe src="https://docs.google.com/spreadsheets/d/1IzUNOwFAh6dyNvzMHkLUYtDTU-Rs6ufwwyjDQ2EDcD8/pubhtml?widget=true&amp;headers=false"></iframe>
+
+
 <img itemprop="image" class="img-rounded" src="/assets/img/blog-author.jpg" alt="Willian Justen">
 
 <h2>About Me</h2>
